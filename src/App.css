@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 15px 40px;
+  z-index: 10;
+  backdrop-filter: blur(6px);
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 45px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00e0c6;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(135deg, #0099cc, #00c8b3);
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.35);
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.title {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.cta {
+  margin-top: 25px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  background-color: #ffffff;
+  color: #007b8a;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cta:hover {
+  background-color: #00e0c6;
+  color: white;
+}
+/* --- Tentang Kami --- */
+.about {
+  padding: 100px 20px;
+  background-color: #f8fafc;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #007b8a;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.section-text {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+/* --- Layanan Kami --- */
+.services {
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #00c8b3, #0099cc);
+  text-align: center;
+  color: white;
+}
+
+.service-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.service-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 30px;
+  transition: 0.3s;
+  backdrop-filter: blur(6px);
+}
+
+.service-card:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-8px);
+}
+
+.service-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.service-card p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* --- Kontak Kami --- */
+.contact {
+  padding: 100px 20px;
+  background-color: #f8fafc;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 40px auto 0;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 16px;
+  border: 1.5px solid #00b3b3;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-family: inherit;
+  outline: none;
+  transition: 0.2s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #007b8a;
+  box-shadow: 0 0 5px rgba(0, 139, 139, 0.3);
+}
+
+.contact-form button {
+  background: linear-gradient(135deg, #00b3b3, #007b8a);
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #0099cc, #00c8b3);
+}
+
+/* --- Footer --- */
+.footer {
+  background: linear-gradient(135deg, #0099cc, #00c8b3);
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.95rem;
+  margin-top: 60px;
+  letter-spacing: 0.5px;
+}
