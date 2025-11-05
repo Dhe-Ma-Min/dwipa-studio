@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dwipa-studio/static/css/main.059a88a1.css",
+    "main.js": "/dwipa-studio/static/js/main.49577951.js",
+    "static/js/453.31858984.chunk.js": "/dwipa-studio/static/js/453.31858984.chunk.js",
+    "static/media/dwipa-logo.png": "/dwipa-studio/static/media/dwipa-logo.37e73d57bf9a120609c7.png",
+    "index.html": "/dwipa-studio/index.html",
+    "main.059a88a1.css.map": "/dwipa-studio/static/css/main.059a88a1.css.map",
+    "main.49577951.js.map": "/dwipa-studio/static/js/main.49577951.js.map",
+    "453.31858984.chunk.js.map": "/dwipa-studio/static/js/453.31858984.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.059a88a1.css",
+    "static/js/main.49577951.js"
+  ]
+}
