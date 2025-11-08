@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/dwipa-studio/static/css/main.6e39c1c6.css",
-    "main.js": "/dwipa-studio/static/js/main.51552ba3.js",
+    "main.js": "/dwipa-studio/static/js/main.f4cd6290.js",
     "static/js/453.31858984.chunk.js": "/dwipa-studio/static/js/453.31858984.chunk.js",
     "static/media/dwipa-logo.png": "/dwipa-studio/static/media/dwipa-logo.37e73d57bf9a120609c7.png",
     "index.html": "/dwipa-studio/index.html",
     "main.6e39c1c6.css.map": "/dwipa-studio/static/css/main.6e39c1c6.css.map",
-    "main.51552ba3.js.map": "/dwipa-studio/static/js/main.51552ba3.js.map",
+    "main.f4cd6290.js.map": "/dwipa-studio/static/js/main.f4cd6290.js.map",
     "453.31858984.chunk.js.map": "/dwipa-studio/static/js/453.31858984.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e39c1c6.css",
-    "static/js/main.51552ba3.js"
+    "static/js/main.f4cd6290.js"
   ]
 }
