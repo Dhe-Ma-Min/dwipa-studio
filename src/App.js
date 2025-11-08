@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import logo from "./dwipa-logo.png"; // nanti kita tambahkan logo ke folder src
 import { motion } from "framer-motion";
@@ -8,7 +8,10 @@ function App() {
     const [categoryFilter, setCategoryFilter] = useState("Semua");
     const [selectedProduct, setSelectedProduct] = useState(null);
     const [showModal, setShowModal] = useState(false);
-
+    useEffect(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }, []);
+    
       const products = [
         {
           id: 1,
